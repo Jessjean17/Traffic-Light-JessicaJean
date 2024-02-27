@@ -1,12 +1,42 @@
-
-/* 
-
-    You can write your own styles here...
+.traffic-pos{
+    background-color: black;
+    margin: 0 auto;
+    width: 10px;
+    height: 80px;
+    display: flex;
+    }
+    .container{
+    background-color: black;
+    margin: 0 auto;
+    width: 120px;
+    height: auto;
+    padding:10px;
+    border-radius: 10px;
+    }
+    .light{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+    background-color: black;
+    }
+    .red{
+    background-color: red;
+    }
+    .yellow{
+    background-color: yellow;
+    }
+    .green{
+    background-color: green;
+    }
+    .glowred {
+        box-shadow: 0 0 20px 10px rgba(212, 4, 4, 0.8);
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+      }
+      
+    .glowyellow {
+        box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.8); 
+     }
+      
+    .glowgreen {
+        box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.8);
+    }
